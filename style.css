@@ -1,0 +1,29 @@
+body{
+	background-image: url("back.png");
+	height: 100%;
+	padding: 20px;
+}
+.tail1{
+	background-image: url("tail1.jpg");
+	background-blend-mode: darken;
+	padding: 230px 280px 50px 280px;
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	margin: 20px;
+}
+.tail2{
+	background-image: url("tail2.jpg");
+	background-blend-mode: darken;
+	padding: 230px 280px 50px 280px;
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	margin: 20px;
+}
+.tail1:hover{
+	background-blend-mode: color-burn;
+}
+.tail2:hover{
+	background-blend-mode: color-burn;
+}
